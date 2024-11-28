@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #0d0a2f;
+    color: #8892b0;
+    line-height: 1.6;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(10, 25, 47, 0.95);
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: flex-end;
+    z-index: 1000;
+}
+
+.nav-links {
+    display: flex;
+    gap: 2rem;
+}
+
+.nav-links a {
+    color: #64ffda;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #ffffff;
+}
+
+.hero {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 15%;
+}
+
+.hero small {
+    color: #64ffda;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.hero h1 {
+    color: #ccd6f6;
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+.hero h2 {
+    color: #8892b0;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.hero p {
+    max-width: 540px;
+    margin-bottom: 2rem;
+}
+
+.section {
+    padding: 6rem 15%;
+}
+
+.section-title {
+    color: #ccd6f6;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.about-content {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    gap: 4rem;
+    align-items: center;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.skill-card {
+    background-color: #112240;
+    padding: 1.5rem;
+    border-radius: 4px;
+    transition: transform 0.3s;
+}
+
+.skill-card:hover {
+    transform: translateY(-5px);
+}
+
+.skill-card h3 {
+    color: #64ffda;
+    margin-bottom: 1rem;
+}
+
+.education {
+    background-color: #112240;
+    padding: 2rem;
+    border-radius: 4px;
+    margin-bottom: 2rem;
+}
+
+.education h3 {
+    color: #ccd6f6;
+    margin-bottom: 0.5rem;
+}
+
+.education p {
+    margin-bottom: 0.5rem;
+}
+
+.btn {
+    display: inline-block;
+    background-color: transparent;
+    border: 1px solid #64ffda;
+    color: #64ffda;
+    padding: 0.75rem 1.5rem;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgba(100, 255, 218, 0.1);
+}
+
+.contact-content {
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.social-links a {
+    color: #64ffda;
+    text-decoration: none;
+    font-size: 1.5rem;
+    transition: transform 0.3s;
+}
+
+.social-links a:hover {
+    transform: translateY(-3px);
+}
